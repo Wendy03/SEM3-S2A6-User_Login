@@ -1,0 +1,30 @@
+<!--  ./views/index.handlebars -->
+<div class="container py-5 mt-5 col-3 mx-auto" id="login">
+
+  <h1 class="text-center pb-5">Account Login</h1>
+
+  <form method="POST" action="/">
+
+    <div class="form-group">
+      <img src="https://lighthouse.alphacamp.co/default/medium_user_photo.jpg" alt="Avatar" class="avatar" width="150">
+    </div>
+
+    <div class=" form-group">
+      <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+    </div>
+
+    <div class="form-group">
+      <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
+    </div>
+
+    {{#if error}}
+    <p class="text-danger">
+      <span><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></span>
+      {{error}} </p>
+    {{/if}}
+    <div class="d-flex justify-content-center pt-5">
+      <button class="btn btn-outline-dark sing-in" type="submit">Sing in</button>
+    </div>
+  </form>
+
+</div>

@@ -1,0 +1,22 @@
+<header class="pb-5">
+  <!-- navigation -->
+  <nav class="navbar navbar-light bg-light fixed-top">
+    <div class="container row">
+      <a class="navbar-brand" href="/">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/6227/restaurant-list-logo.png"
+          width="30" height="30" class="d-inline-block align-top" alt="我的餐廳清單">
+        {{userName}}的餐廳清單
+      </a>
+
+      <form action="/logout">
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-outline-dark sing-out" type="submit">Sing Out</button>
+        </div>
+      </form>
+    </div>
+  </nav>
+</header>
+
+<div class="m-5">
+  <h1>Welcome back, {{userName}} </h1>
+</div>
