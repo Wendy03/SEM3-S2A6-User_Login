@@ -46,7 +46,7 @@
 
 ## 測試帳密
 
-| First Name | email               | email            |
+| First Name | email               | 密碼             |
 | ---------- | ------------------- | ---------------- |
 | Tony       | tony@stark.com      | iamironman       |
 | Steve      | captain@hotmail.com | icandothisallday |
